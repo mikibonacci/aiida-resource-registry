@@ -22,7 +22,7 @@ concurrency:
 jobs:
 
     webpage:
-        if: github.repository == 'aiidateam/aiida-resource-registry' && github.ref == 'refs/heads/main'
+        if: github.repository == 'mikibonacci/aiida-resource-registry' && github.ref == 'refs/heads/main'
         runs-on: ubuntu-latest
 
         env:
